@@ -1,1 +1,111 @@
-HelloWorld
+<html>
+	<head>
+		<title>Sergii Getman</title>
+
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<link rel="stylesheet" href="css/style.css">
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/CvCtrl.js"></script>
+
+	</head>
+	<body ng-app="cvApp" ng-controller="CvCtrl">
+	    <h1></h1>
+	    <div class="row">
+		  <div class="col-md-2"></div>
+		  <div class="col-md-8">
+		  	<h2>Sergii Getman
+		  	</h2>
+		  	<h4>Kyiv, Ukraine</h4>
+			<div class="wrapper-location">
+				<ul>
+					<li>
+						<img src="img/skype.png"><span>mogaba2008</span>	
+					</li>
+					<li><img src="img/gmail.png"><span>getman.sergei@gmail.com</span>
+					</li>
+					<li>
+						<img src="img/phone.png" ><span>066 49 47 237</span>
+					</li>	
+				</ul>
+			</div>	
+		  </div>
+		  <div class="col-md-2"></div>
+		</div>
+		<div class="row">
+		  <div class="col-md-2"></div>
+		  <div class="col-md-8">
+		  	<h4>Languages and Technologies</h4>
+			<div >
+				<ul>
+					<li><span>Communication</span>: English (upper intermediate)</li>
+					<li><span>Languages</span>: Java 8, Groovy, Javascript</li>
+					<li><span>Frameworks</span>: Spring IoC, Spring MVC, Spring Data, Hibernate</li>
+					<li><span>IDE</span>: Intellij Idea</li>
+					<li><span>Tools</span>: Maven, Gradle</li>
+					<li><span>Version Control</span>: Git</li>
+					<li><span>Servlet Containers</span>: Jetty, Tomcat</li>
+				</ul>	
+			</div>	
+		  </div>
+		  <div class="col-md-2"></div>
+		</div>
+		<div class="row">
+		  <div class="col-md-2"></div>
+		  <div class="col-md-8">
+		  	<h4>Experience</h4>
+			<div class="experience" ng-repeat="project in projects">
+				<ul>
+					<li><span>Company</span>: {{project.company}}</li>
+					<li><span>Project</span>: {{project.name}}</li>
+					<li><span>Description</span>: {{project.desc}}</li>
+				</ul>	
+			</div>	
+		  </div>
+		  <div class="col-md-2"></div>
+		</div>
+		<div class="row">
+		  <div class="col-md-2"></div>
+		  <div class="col-md-8">
+		  	<h4>Education</h4>
+			<div ng-repeat="edu in edus">
+				<ul>
+					<li>{{edu.time}}</li>
+					<li>{{edu.location}}</li>
+					<li>{{edu.univer}}</li>
+					<li>{{edu.graduation}}</li>
+				</ul>	
+			</div>	
+		  </div>
+		  <div class="col-md-2"></div>
+		</div>
+		<div class="row">
+		  <div class="col-md-2"></div>
+		  <div class="col-md-8">
+		  	<h4>Certification</h4>
+			<div ng-repeat="certificate in certificates">
+				<ul>
+					<li>{{certificate.name}}</li>
+				</ul>	
+			</div>	
+		  </div>
+		  <div class="col-md-2"></div>
+		</div>
+	</body>
+
