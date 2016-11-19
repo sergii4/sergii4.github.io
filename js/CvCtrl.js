@@ -30,6 +30,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
   	'graduation':'graduate, Master of management IT-projects'
   }
   ]; 
+	
   $scope.certificates = [
   {
   	'name':'Oracle Certified Professional, Java SE 6 Programmer'
