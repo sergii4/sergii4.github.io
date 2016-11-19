@@ -1,5 +1,9 @@
 cvApp.controller('CvCtrl', ['$scope', function($scope) { 
 	$scope.projects = [
+    {'company': 'Dubit',
+     'name': 'Dubit',
+     'desc': 'Different small Rest Api project based on Spring Boot and wrapped in Docker container'
+ 	},
     {'company': 'Levi9',
      'name': 'Backbase',
      'desc': 'Backbase CXP is a loosely coupled presentation layer that sits on top of your existing systems. It helps you to compose truly customer-centric dialogs across any device, and combines content, data, and functionality from different underlying systems (silos) into a new, fresh, UX presentation layer. Backbase CXP is based on ‘lean architecture’ principles and, unlike traditional portals, is up and running within months, not years.'
