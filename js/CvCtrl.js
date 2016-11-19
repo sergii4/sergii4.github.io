@@ -2,7 +2,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
 	$scope.projects = [
     {'company': 'Dubit',
      'name': 'Dubit',
-     'desc': 'Different small Rest Api project based on Spring Boot and wrapped in Docker container'
+     'desc': 'Different small Rest Api projects based on Spring Boot and wrapped in Docker container'
  	},
     {'company': 'Levi9',
      'name': 'Backbase',
