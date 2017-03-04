@@ -20,15 +20,10 @@ h2, h4 {
 }
 .wrapper-location li {
     float: left;
-    padding: 2px 5px;
+    margin-left: 20px;
+    margin-right: 5px;
 }
 
 ul {
 	list-style-type: circle;
-}
-
-.wrapper-location li #contatct{
-    float: left;
-    margin-left: 20px;
-    margin-right: 5px;
 }
