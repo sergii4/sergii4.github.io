@@ -27,7 +27,7 @@ ul {
 	list-style-type: circle;
 }
 
-.wrapper-location-contatcts li {
+.wrapper-location li #contatct{
     float: left;
     margin-left: 20px;
     margin-right: 5px;
