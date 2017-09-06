@@ -6,7 +6,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': '2017 - present time',
      'position': 'java developer',
      'responsibilities': 'develop app from sratch, providing estimation, working on app architecture, implementation user stories',
-     'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, AWS, React JS'
+     'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, AWS, React JS, Redux'
  	},
     {'company': 'Dubit',
      'name': 'Dubit',
