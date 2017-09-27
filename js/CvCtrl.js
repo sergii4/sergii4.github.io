@@ -5,7 +5,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'Big e-commerce platform for plants growers and customers',
      'date': '2017 - present time',
      'position': 'java developer',
-     'responsibilities': 'develop app from scratch (microservices), providing estimation, working on app architecture, implementation user stories',
+     'responsibilities': 'develop app from scratch (microservices based on bounded context), providing estimation, working on app architecture, implementation user stories',
      'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, AWS, React JS, Redux'
  	},
     {'company': 'Dubit',
@@ -13,7 +13,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'Different small Rest Api projects based on Spring Boot and wrapped in Docker container',
      'date': '2016 - 2017',
      'position': 'java developer',
-     'responsibilities': 'develop app from sratch, providing estimation, working on app architecture, implementation user stories',
+     'responsibilities': 'develop app from scratch (microservices based on bounded context), providing estimation, working on app architecture, implementation user stories',
      'techologies': 'Spring, Microservices, Docker, AWS'
  	},
     {'company': 'Levi9',
