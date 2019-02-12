@@ -1,7 +1,7 @@
 cvApp.controller('CvCtrl', ['$scope', function($scope) { 
 	$scope.projects = [
     {'company': 'NDA',
-     'name': 'Here',
+     'name': 'NDA',
      'desc': 'communication platform',
      'date': '2018 - present time',
      'position': 'golang developer',
