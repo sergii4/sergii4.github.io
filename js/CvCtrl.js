@@ -1,17 +1,17 @@
 cvApp.controller('CvCtrl', ['$scope', function($scope) { 
 	$scope.projects = [
-    {'company': 'Intellias',
+    {'company': 'NDA',
      'name': 'Here',
-     'desc': 'tool for data generating',
-     'date': '2017 - present time',
-     'position': 'java developer',
-     'responsibilities': 'develop app from scratch (pure Java 8 comand line app), providing estimation, working on app architecture, implementation user stories',
-     'techologies': 'Java 8, Junit, Maven'
+     'desc': 'communication platform',
+     'date': '2018 - present time',
+     'position': 'golang developer',
+     'responsibilities': 'I am responsible authentication and authorization users and application based on OpenID Connect',
+     'techologies': 'Golang, Dep, gRPC, Docker, Google Datastore, Redis'
  	},		
     {'company': 'GlobalLogic',
      'name': 'Royal Flora Holland',
      'desc': 'Big e-commerce platform for plants growers and customers',
-     'date': '2017 - 2017',
+     'date': '2017 - 2018',
      'position': 'java developer',
      'responsibilities': 'develop app from scratch (microservices based on bounded context), providing estimation, working on app architecture, implementation user stories',
      'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, AWS, React JS, Redux'
