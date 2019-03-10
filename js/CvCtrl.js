@@ -7,11 +7,19 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'position': 'golang developer',
      'responsibilities': 'I am responsible authentication and authorization users and application based on OpenID Connect',
      'techologies': 'Golang, Dep, gRPC, Docker, Google Datastore, Redis'
+ 	},	
+    {'company': 'Intellias',
+     'name': 'Here',
+     'desc': 'tool for generate test data for mapping systems',
+     'date': '2017 - 2018',
+     'position': 'java developer',
+     'responsibilities': 'design, development',
+     'techologies': 'Java 8, Junit, ReactJS'
  	},		
     {'company': 'GlobalLogic',
      'name': 'Royal Flora Holland',
      'desc': 'Big e-commerce platform for plants growers and customers',
-     'date': '2017 - 2018',
+     'date': '2017 - 2017',
      'position': 'java developer',
      'responsibilities': 'develop app from scratch (microservices based on bounded context), providing estimation, working on app architecture, implementation user stories',
      'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, AWS, React JS, Redux'
