@@ -1,11 +1,19 @@
 cvApp.controller('CvCtrl', ['$scope', function($scope) { 
 	$scope.projects = [
+    {'company': 'Ring Ukraine',
+     'name': 'Ring Ukraine',
+     'desc': 'communication platform',
+     'date': '2019 - present time',
+     'position': 'go/cloud engineer',
+     'responsibilities': 'Building microservices from scratch, extending existing microservices, applying concurrency patterns, navigating through complex cloud architecture and providing info: dashboards, logs',
+     'techologies': 'Golang, DynamoDB, Redis'
+ 	},		
     {'company': 'NDA',
      'name': 'NDA',
      'desc': 'communication platform',
-     'date': '2018 - present time',
+     'date': '2018 - 2019',
      'position': 'golang developer',
-     'responsibilities': 'I am responsible authentication and authorization users and application based on OpenID Connect',
+     'responsibilities': 'I am responsible authentication and authorization users and application based on OpenID Connect, Missed Call API',
      'techologies': 'Golang, Dep, gRPC, Docker, Google Datastore, Redis'
  	},	
     {'company': 'Intellias',
