@@ -2,7 +2,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
 	$scope.projects = [
     {'company': 'Ring Ukraine',
      'name': 'Ring Ukraine',
-     'desc': 'communication platform',
+     'desc': 'video/photo streaming service',
      'date': '2019 - present time',
      'position': 'go/cloud engineer',
      'responsibilities': 'Building microservices from scratch, extending existing microservices, applying concurrency patterns, navigating through complex cloud architecture and providing info: dashboards, logs',
