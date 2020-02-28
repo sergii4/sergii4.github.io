@@ -1,7 +1,7 @@
 cvApp.controller('CvCtrl', ['$scope', function($scope) { 
 	$scope.projects = [
-    {'company': 'Ring Ukraine',
-     'name': 'Ring Ukraine',
+    {'company': 'Deviget',
+     'name': 'ring.com',
      'desc': 'video/photo streaming service',
      'date': '2019 - present time',
      'position': 'go/cloud engineer',
