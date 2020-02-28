@@ -99,10 +99,6 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
   {
   	'name':'stackoverflow',
 	'url' : 'http://stackoverflow.com/users/2219213/sergii-getman'
-  },
-  {
-  	'name':'blogspot',
-	'url' : 'http://developdevelop.blogspot.com/'
   }
   ];
 }]);
