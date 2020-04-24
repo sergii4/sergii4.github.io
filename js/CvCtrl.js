@@ -6,7 +6,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': '2019 - present time',
      'position': 'go/cloud engineer',
      'responsibilities': 'Building microservices from scratch, extending existing microservices, applying concurrency patterns, navigating through complex cloud architecture and providing info: dashboards, logs',
-     'techologies': 'Golang, DynamoDB, Redis'
+     'techologies': 'Golang, DynamoDB, Redis, Docker, Kubernetes, AWS'
  	},		
     {'company': 'NDA',
      'name': 'NDA',
@@ -14,7 +14,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': '2018 - 2019',
      'position': 'golang developer',
      'responsibilities': 'I am responsible authentication and authorization users and application based on OpenID Connect, Missed Call API',
-     'techologies': 'Golang, Dep, gRPC, Docker, Google Datastore, Redis'
+     'techologies': 'Golang, Dep, gRPC, Docker, Kubernetes, Google Datastore, Redis, GCloud'
  	},	
     {'company': 'Intellias',
      'name': 'Here',
@@ -22,7 +22,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': '2017 - 2018',
      'position': 'java developer',
      'responsibilities': 'design, development',
-     'techologies': 'Java 8, Junit, ReactJS'
+     'techologies': 'Java 8, Junit, ReactJS, AWS'
  	},		
     {'company': 'GlobalLogic',
      'name': 'Royal Flora Holland',
@@ -30,7 +30,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': '2017 - 2017',
      'position': 'java developer',
      'responsibilities': 'develop app from scratch (microservices based on bounded context), providing estimation, working on app architecture, implementation user stories',
-     'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, AWS, React JS, Redux'
+     'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, Kubernetes, AWS, React JS, Redux'
  	},
     {'company': 'Dubit',
      'name': 'Dubit',
@@ -38,7 +38,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': '2016 - 2017',
      'position': 'java developer',
      'responsibilities': 'develop app from scratch (microservices based on bounded context), providing estimation, working on app architecture, implementation user stories',
-     'techologies': 'Spring, Microservices, Docker, AWS'
+     'techologies': 'Spring, Microservices, Docker, AWS, Kubernetes, Rancher'
  	},
     {'company': 'Levi9',
      'name': 'Backbase',
