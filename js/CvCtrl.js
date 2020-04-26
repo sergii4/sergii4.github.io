@@ -94,11 +94,4 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
   	'name':'Oracle Certified Professional, Java SE 6 Programmer'
   }
   ];
-
-  $scope.blogs = [
-  {
-  	'name':'stackoverflow',
-	'url' : 'http://stackoverflow.com/users/2219213/sergii-getman'
-  }
-  ];
 }]);
