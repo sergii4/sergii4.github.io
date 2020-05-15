@@ -5,7 +5,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'video/photo streaming service',
      'date': '2019 - present time',
      'position': 'go/cloud engineer',
-     'responsibilities': 'Building microservices from scratch, extending existing microservices, applying concurrency patterns, navigating through complex cloud architecture and providing info: dashboards, logs',
+     'responsibilities': 'Building highload microservices from scratch, extending existing microservices, applying concurrency patterns, navigating through complex cloud architecture and providing info: dashboards, logs',
      'techologies': 'Golang, DynamoDB, Redis, Docker, Kubernetes, AWS'
  	},		
     {'company': 'NDA',
@@ -13,7 +13,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'communication platform',
      'date': '2018 - 2019',
      'position': 'golang developer',
-     'responsibilities': 'I am responsible authentication and authorization users and application based on OpenID Connect, Missed Call API',
+     'responsibilities': 'Building highload microservices responsible for authentication and authorization users and application based on OpenID Connect, Missed Call API',
      'techologies': 'Golang, Dep, gRPC, Docker, Kubernetes, Google Datastore, Redis, GCloud'
  	},	
     {'company': 'Intellias',
