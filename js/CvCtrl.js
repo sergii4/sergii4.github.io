@@ -1,9 +1,17 @@
 cvApp.controller('CvCtrl', ['$scope', function($scope) { 
 	$scope.projects = [
+    {'company': 'Vonage',
+     'name': 'Nexmo',
+     'desc': 'solutions on top of messaging/calling API',
+     'date': '2020 - present time',
+     'position': 'go/cloud engineer',
+     'responsibilities': 'Build Go microservices/FAAS, working on best suitable deploy/delivery approach, communicate between services with messaging, store big amount of logs and provide a quick access to it',
+     'techologies': 'Golang, Redis, Docker, Kubernetes, AWS, NATS messaging, Clickhouse, GraphQL'
+ 	},		
     {'company': 'Deviget',
      'name': 'ring.com',
      'desc': 'video/photo streaming service',
-     'date': '2019 - present time',
+     'date': '2019 - 2020',
      'position': 'go/cloud engineer',
      'responsibilities': 'Building highload microservices from scratch, extending existing microservices, applying concurrency patterns, navigating through complex cloud architecture and providing info: dashboards, logs',
      'techologies': 'Golang, DynamoDB, Redis, Docker, Kubernetes, AWS'
