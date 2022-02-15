@@ -5,7 +5,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'solutions on top of messaging/calling API',
      'date': '2020 - present time',
      'position': 'go/cloud engineer',
-     'responsibilities': 'Build Go microservices/FAAS, working on best suitable deploy/delivery approach, communicate between services with messaging, store big amount of logs and provide a quick access to it',
+     'responsibilities': 'Microservice design, implementation, deployment, performance testing, resolving performance issues such as latency, memory problems',
      'techologies': 'Golang, Redis, Docker, Kubernetes, AWS, NATS messaging, Clickhouse, GraphQL'
  	},		
     {'company': 'Deviget',
