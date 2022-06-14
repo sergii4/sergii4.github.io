@@ -5,7 +5,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'solutions on top of messaging/calling API',
      'date': '2020 - present time',
      'position': 'go/cloud engineer',
-     'responsibilities': 'Microservice design, implementation, deployment, performance testing, resolving performance issues such as long latency, memory problems',
+     'achievements': 'Successfully profiled microservices and fixed latency issues between them, network issues such as lack of TCP ports in Kubernetes cluster caused by poorly tuned HTTP clients. Migrated microservice from HTTP/1 to HTTP/2. Designed and implemented GraphQL to SQL transpiler',
      'techologies': 'Golang, Redis, Docker, Kubernetes, AWS, NATS messaging, Clickhouse, GraphQL'
  	},		
     {'company': 'Deviget',
@@ -13,7 +13,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'video/photo streaming service',
      'date': '2019 - 2020',
      'position': 'go/cloud engineer',
-     'responsibilities': 'Building highload microservices from scratch, extending existing microservices, applying concurrency patterns, navigating through complex cloud architecture and providing info: dashboards, logs',
+     'achievements': 'Fixed microservice memory leak issues. Desinged, implemented and tested replacement for Amamzon Web Service (SQS) - Redis Delayed Tasks - to reduce company expenses',
      'techologies': 'Golang, DynamoDB, Redis, Docker, Kubernetes, AWS'
  	},		
     {'company': 'NDA',
@@ -21,7 +21,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'communication platform',
      'date': '2018 - 2019',
      'position': 'golang developer',
-     'responsibilities': 'Building highload microservices responsible for authentication and authorization users and application based on OpenID Connect, Missed Call API',
+     'achievements': 'Integrated missed call authentication approach as a replacement to SMS to reduce company expenses. Learned a new programming language - Golang',
      'techologies': 'Golang, Dep, gRPC, Docker, Kubernetes, Google Datastore, Redis, GCloud'
  	},	
     {'company': 'Intellias',
@@ -29,7 +29,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'tool for generate test data for mapping systems',
      'date': '2017 - 2018',
      'position': 'java developer',
-     'responsibilities': 'design, development',
+     'achievements': 'Designed and implemented a data generation command tool line for use by other teams inside the company. Profiled the tool and fixed memory leaks',
      'techologies': 'Java 8, Junit, ReactJS, AWS'
  	},		
     {'company': 'GlobalLogic',
@@ -37,7 +37,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'Big e-commerce platform for plants growers and customers',
      'date': '2017 - 2017',
      'position': 'java developer',
-     'responsibilities': 'develop app from scratch (microservices based on bounded context), providing estimation, working on app architecture, implementation user stories',
+     'achievements': 'Designed and implemented microservices.',
      'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, Kubernetes, AWS, React JS, Redux'
  	},
     {'company': 'Dubit',
@@ -45,7 +45,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'Different small Rest Api projects based on Spring Boot and wrapped in Docker container',
      'date': '2016 - 2017',
      'position': 'java developer',
-     'responsibilities': 'develop app from scratch (microservices based on bounded context), providing estimation, working on app architecture, implementation user stories',
+     'achievements': 'Got familiar with cloud native application development. Designed and implemented microservices.',
      'techologies': 'Spring, Microservices, Docker, AWS, Kubernetes, Rancher'
  	},
     {'company': 'Levi9',
@@ -53,7 +53,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'Backbase CXP is a loosely coupled presentation layer that sits on top of your existing systems. It helps you to compose truly customer-centric dialogs across any device, and combines content, data, and functionality from different underlying systems (silos) into a new, fresh, UX presentation layer. Backbase CXP is based on ‘lean architecture’ principles and, unlike traditional portals, is up and running within months, not years.',
      'date': '2014 - 2015',
      'position': 'java developer',
-     'responsibilities': 'working on app architecture, implementation user stories, bug fixing, maintatinance',
+     'achievements': 'Designed and implemented microservices. Fixed bugs which required a lot of investigation',
      'techologies': 'Spring, Apache Camel'
  	},
     {'company':'GlobalLogic',
@@ -61,7 +61,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'Online banking payment system for all types UK payments',
      'date': '2013 - 2014',
      'position': 'java developer',
-     'responsibilities': 'develop app from sratch, providing estimation, implementation user stories, bug fixing',
+     'achievements': 'Designed and implemented microservices.',
      'techologies': 'Spring, Jax-Rs'
     },
     {'company':'Epam',
@@ -69,7 +69,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'Discount system for Sephora(perfume retailer). Main application (Sephora) communicate with discount system(Beauty Insider) via Web Services. Beauty Insider is responsible for all loyalty business logic.',
      'date': '2012 - 2013',
      'position': 'java developer',
-     'responsibilities': 'implementation user stories, bug fixing, maintainance, writing js, sql scripts',
+     'achievements': 'Implemented user stories, fixed bugs.',
      'techologies': 'EJB 2, JSP, Servlets, WebLogic'
     },
     {'company':'Epam',
@@ -77,7 +77,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'System provides hotels search and booking functionality across one of the direct or partner brands, through web or XML interface.',
      'date': '2010 - 2012',
      'position': 'java developer',
-     'responsibilities': 'adding new functionality, bug fixing, working on infrastructure',
+     'achievements': 'Got familiar with agile development. Added new functionality, fixed bugs, improved CD/CI infrastructure',
      'techologies': 'Spring, Tomcat, JSP, Servlets'
     }
   ];
