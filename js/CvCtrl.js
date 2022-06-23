@@ -5,7 +5,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'desc': 'solutions on top of messaging/calling API',
      'date': '2020 - present time',
      'position': 'go/cloud engineer',
-     'achievements': 'Successfully profiled microservices and fixed latency issues between them, network issues such as lack of TCP ports in Kubernetes cluster caused by poorly tuned HTTP clients. Migrated microservice from HTTP/1 to HTTP/2. Designed and implemented GraphQL to SQL transpiler',
+     'achievements': 'Successfully profiled microservices and fixed latency issues between them, network issues such as lack of TCP ports in Kubernetes cluster caused by poorly tuned HTTP clients. Migrated microservice from HTTP/1 to HTTP/2. Designed and implemented GraphQL to SQL transpiler. Optimized database indexes(ClickHouse) and queries to reduce their latency',
      'techologies': 'Golang, Redis, Docker, Kubernetes, AWS, NATS messaging, Clickhouse, GraphQL'
  	},		
     {'company': 'Deviget',
