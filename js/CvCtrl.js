@@ -1,4 +1,4 @@
-cvApp.controller('CvCtrl', ['$scope', function($scope) { 
+cvApp.controller('CvCtrl', ['$scope', function($scope) {
 	$scope.projects = [
     {'company': 'Neo4j',
      'name': 'Neo4j Cloud - Orchestration Team',
@@ -39,7 +39,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
        'Optimized Clickhouse database indexes and queries, reducing latency'
      ],
      'techologies': 'Golang, Redis, Docker, Kubernetes, AWS, NATS, Clickhouse, GraphQL'
- 	},		
+ 	},
     {'company': 'Deviget',
      'name': 'ring.com',
      'desc': 'Video/photo streaming service',
@@ -50,7 +50,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
        'Designed and implemented Redis Delayed Tasks as cost-effective replacement for AWS SQS'
      ],
      'techologies': 'Golang, DynamoDB, Redis, Docker, Kubernetes, AWS'
- 	},		
+ 	},
     {'company': 'NDA',
      'name': 'NDA',
      'desc': 'Communication platform',
@@ -61,63 +61,19 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
        'Transitioned from Java to Golang for cloud-native development'
      ],
      'techologies': 'Golang, gRPC, Docker, Kubernetes, Google Datastore, Redis, GCloud'
- 	},	
-    {'company': 'Intellias',
-     'name': 'Here',
-     'desc': 'tool for generate test data for mapping systems',
-     'date': '2017 - 2018',
-     'position': 'java developer',
-     'achievements': 'Designed and implemented a data generation command tool line for use by other teams inside the company. Profiled the tool and fixed memory leaks',
-     'techologies': 'Java 8, Junit, ReactJS, AWS'
- 	},		
-    {'company': 'GlobalLogic',
-     'name': 'Royal Flora Holland',
-     'desc': 'Big e-commerce platform for plants growers and customers',
-     'date': '2017 - 2017',
-     'position': 'java developer',
-     'achievements': 'Designed and implemented microservices.',
-     'techologies': 'CQRS, Elasticsearch, Spring, Microservices, Axon, Docker, Kubernetes, AWS, React JS, Redux'
  	},
-    {'company': 'Dubit',
-     'name': 'Dubit',
-     'desc': 'Different small Rest Api projects based on Spring Boot and wrapped in Docker container',
-     'date': '2016 - 2017',
-     'position': 'java developer',
-     'achievements': 'Got familiar with cloud native application development. Designed and implemented microservices.',
-     'techologies': 'Spring, Microservices, Docker, AWS, Kubernetes, Rancher'
- 	},
-    {'company': 'Levi9',
-     'name': 'Backbase',
-     'desc': 'Backbase CXP is a loosely coupled presentation layer that sits on top of your existing systems. It helps you to compose truly customer-centric dialogs across any device, and combines content, data, and functionality from different underlying systems (silos) into a new, fresh, UX presentation layer. Backbase CXP is based on ‘lean architecture’ principles and, unlike traditional portals, is up and running within months, not years.',
-     'date': '2014 - 2015',
-     'position': 'java developer',
-     'achievements': 'Designed and implemented microservices. Fixed bugs which required a lot of investigation',
-     'techologies': 'Spring, Apache Camel'
- 	},
-    {'company':'GlobalLogic',
-     'name': 'Bottomline',
-     'desc': 'Online banking payment system for all types UK payments',
-     'date': '2013 - 2014',
-     'position': 'java developer',
-     'achievements': 'Designed and implemented microservices.',
-     'techologies': 'Spring, Jax-Rs'
-    },
-    {'company':'Epam',
-     'name': 'Sephora',
-     'desc': 'Discount system for Sephora(perfume retailer). Main application (Sephora) communicate with discount system(Beauty Insider) via Web Services. Beauty Insider is responsible for all loyalty business logic.',
-     'date': '2012 - 2013',
-     'position': 'java developer',
-     'achievements': 'Implemented user stories, fixed bugs.',
-     'techologies': 'EJB 2, JSP, Servlets, WebLogic'
-    },
-    {'company':'Epam',
-     'name': 'Octopustravel',
-     'desc': 'System provides hotels search and booking functionality across one of the direct or partner brands, through web or XML interface.',
-     'date': '2010 - 2012',
-     'position': 'java developer',
-     'achievements': 'Got familiar with agile development. Added new functionality, fixed bugs, improved CD/CI infrastructure',
-     'techologies': 'Spring, Tomcat, JSP, Servlets'
-    }
+    {'company': 'Earlier Experience',
+     'name': '',
+     'desc': 'Senior Java Developer roles (2010-2017)',
+     'date': '2010 - 2017',
+     'position': 'Senior Java Developer',
+     'achievementsList': [
+       'Designed and implemented microservices using Spring ecosystem',
+       'Developed e-commerce platforms, banking systems, and enterprise applications',
+       'Worked with Docker, Kubernetes, and AWS in early cloud-native projects'
+     ],
+     'techologies': 'Java, Spring, Microservices, Docker, Kubernetes, AWS'
+ 	}
   ];
 
   $scope.edus = [
@@ -133,8 +89,8 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
   	'univer': 'National Technical University "Kharkiv Polytechnic University"',
   	'graduation':'graduate, Master of management IT-projects'
   }
-  ]; 
-	
+  ];
+
   $scope.opensources = [
   {
   	'name': 'neotest-go',
