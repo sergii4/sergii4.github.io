@@ -113,6 +113,15 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
   }
   ]; 
 	
+  $scope.opensources = [
+  {
+  	'name': 'neotest-go',
+  	'url': 'https://github.com/nvim-neotest/neotest-go',
+  	'description': 'Go language adapter for Neotest testing framework in Neovim. Maintainer',
+  	'stars': '146'
+  }
+  ];
+
   $scope.certificates = [
   {
   	'name':'Oracle Certified Professional, Java SE 6 Programmer'
