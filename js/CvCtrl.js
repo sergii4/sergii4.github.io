@@ -1,9 +1,25 @@
 cvApp.controller('CvCtrl', ['$scope', function($scope) { 
 	$scope.projects = [
+    {'company': 'Neo4j',
+     'name': 'Neo4j Cloud - Orchestration Team',
+     'desc': 'Database lifecycle management and reliability for Neo4j cloud platform',
+     'date': 'May 2025 - present',
+     'position': 'Lead Engineer',
+     'achievements': 'Designing and implementing database operator features for Kubernetes-based orchestration. Building backup and restore systems for cloud database deployments. Delivering features requiring cross-team collaboration. Contributing to metrics, monitoring, and incident response. Architecting solutions for database lifecycle management in multi-cloud environments',
+     'techologies': 'Golang, Kubernetes, Database Operators, Docker, Cloud Infrastructure (AWS, GCP, Azure), Terraform, Backup Systems, Monitoring (Prometheus, Grafana), Incident Management'
+ 	},
+    {'company': 'Neo4j',
+     'name': 'Neo4j Cloud - Orchestration Team',
+     'desc': 'Database lifecycle management and reliability for Neo4j cloud platform',
+     'date': 'November 2022 - April 2025',
+     'position': 'Senior Software Engineer',
+     'achievements': 'Designed and implemented database lifecycle orchestration features for Neo4j cloud platform. Built and maintained Kubernetes-based infrastructure for database deployments. Improved system reliability and observability through comprehensive monitoring and automation. Collaborated with multiple teams to deliver critical infrastructure features',
+     'techologies': 'Golang, Kubernetes, Docker, Cloud Platforms (AWS, GCP, Azure), Terraform, Prometheus, Grafana, Distributed Systems, gRPC'
+ 	},
     {'company': 'Vonage',
      'name': 'Nexmo',
      'desc': 'solutions on top of messaging/calling API',
-     'date': '2020 - present time',
+     'date': '2020 - November 2022',
      'position': 'go/cloud engineer',
      'achievements': 'Successfully profiled microservices and fixed latency issues between them, network issues such as lack of TCP ports in Kubernetes cluster caused by poorly tuned HTTP clients. Migrated microservice from HTTP/1 to HTTP/2. Designed and implemented GraphQL to SQL transpiler. Optimized database indexes(Clickhouse) and queries to reduce their latency',
      'techologies': 'Golang, Redis, Docker, Kubernetes, AWS, NATS messaging, Clickhouse, GraphQL'
