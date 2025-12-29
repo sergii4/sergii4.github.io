@@ -93,12 +93,15 @@
 				<ul>
 					<li><span>Period</span>: <strong>{{project.date}}</strong></li>
 					<li><span>Company</span>: <strong>{{project.company}}</strong></li>
-					<li><span>Project</span>: {{project.name}}</li>
-					<li><span>Description</span>: {{project.desc}}</li>
 					<li><span>Position</span>: {{project.position}}</li>
-					<li><span>Achievements</span>: {{project.achievements}}</li>
+					<li><span>Description</span>: {{project.desc}}</li>
+					<li ng-if="project.achievementsList"><span>Achievements</span>:
+						<ul>
+							<li ng-repeat="achievement in project.achievementsList">{{achievement}}</li>
+						</ul>
+					</li>
 					<li><span>Technologies</span>: {{project.techologies}}</li>
-				</ul>	
+				</ul>
 			</div>	
 		  </div>
 		  <div class="col-md-2"></div>
