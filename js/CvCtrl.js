@@ -64,9 +64,9 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
  	},
     {'company': 'Earlier Experience',
      'name': '',
-     'desc': 'Senior Java Developer roles (2010-2017)',
+     'desc': 'Various Java Developer roles (2010-2017)',
      'date': '2010 - 2017',
-     'position': 'Senior Java Developer',
+     'position': 'Java Developer (Junior → Senior)',
      'achievementsList': [
        'Designed and implemented microservices using Spring ecosystem',
        'Developed e-commerce platforms, banking systems, and enterprise applications',
