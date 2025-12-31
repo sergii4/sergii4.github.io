@@ -6,11 +6,11 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': 'May 2025 - present',
      'position': 'Lead Engineer',
      'achievementsList': [
-       'Designing and implementing database operator features for Kubernetes-based orchestration',
-       'Building backup and restore systems for cloud database deployments',
-       'Delivering features requiring cross-team collaboration',
-       'Contributing to metrics, monitoring, and incident response',
-       'Architecting solutions for database lifecycle management in multi-cloud environments using GitOps practices'
+       'Designed and implemented Kubernetes operators for large-scale database orchestration across multi-cloud environments',
+       'Built automated backup and restore systems supporting high-availability database deployments',
+       'Delivered infrastructure features requiring cross-team collaboration using GitOps workflows',
+       'Led incident response and root-cause analysis for production database infrastructure',
+       'Architected scalable solutions for database lifecycle management with infrastructure-as-code'
      ],
      'techologies': 'Golang, Kubernetes, Kustomize, ArgoCD, Database Operators, Docker, Terraform, Multi-cloud (AWS, GCP, Azure), Prometheus, Grafana'
  	},
@@ -20,10 +20,10 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': 'November 2022 - April 2025',
      'position': 'Senior Software Engineer',
      'achievementsList': [
-       'Designed and implemented database lifecycle orchestration features for multi-cloud deployments',
-       'Built and maintained Kubernetes-based infrastructure using Kustomize and ArgoCD',
-       'Improved system reliability and observability through comprehensive monitoring and automation',
-       'Collaborated with multiple teams to deliver critical infrastructure features using GitOps workflows'
+       'Designed and implemented database lifecycle orchestration features for large-scale multi-cloud deployments',
+       'Built and maintained scalable Kubernetes-based infrastructure using Kustomize and ArgoCD for GitOps',
+       'Improved system reliability and observability through automated monitoring, alerting, and distributed tracing',
+       'Delivered critical infrastructure features through cross-team collaboration and infrastructure-as-code practices'
      ],
      'techologies': 'Golang, Kubernetes, Kustomize, ArgoCD, Docker, Multi-cloud (AWS, GCP, Azure), Terraform, Prometheus, Grafana, gRPC'
  	},
