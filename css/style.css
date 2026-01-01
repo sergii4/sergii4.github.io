@@ -172,8 +172,8 @@ h5 {
 /* Print Styles - Optimized for ATS PDF Export */
 @media print {
 	body {
-		font-size: 10pt;
-		line-height: 1.3;
+		font-size: 9pt;
+		line-height: 1.2;
 		color: #000;
 		background: #fff;
 		margin: 0;
@@ -181,19 +181,19 @@ h5 {
 	}
 
 	h2 {
-		font-size: 18pt;
+		font-size: 16pt;
 		page-break-after: avoid;
-		margin-bottom: 2pt;
+		margin-bottom: 1pt;
 	}
 
 	h4 {
-		font-size: 11pt;
-		margin: 2pt 0;
+		font-size: 10pt;
+		margin: 1pt 0;
 	}
 
 	h5 {
-		font-size: 10pt;
-		margin: 1pt 0;
+		font-size: 9pt;
+		margin: 0;
 	}
 
 	.row {
@@ -202,41 +202,43 @@ h5 {
 	}
 
 	.row h4 {
-		font-size: 12pt;
+		font-size: 11pt;
 		font-weight: 600;
 		page-break-after: avoid;
 		border-bottom: 1pt solid #333;
-		margin-top: 8pt;
-		margin-bottom: 4pt;
-		padding-bottom: 2pt;
+		margin-top: 6pt;
+		margin-bottom: 3pt;
+		padding-bottom: 1pt;
 	}
 
 	/* Professional Summary - compact */
 	.row p {
-		margin: 4pt 0;
-		line-height: 1.3;
+		margin: 2pt 0;
+		line-height: 1.2;
+		font-size: 8.5pt;
 	}
 
 	/* Skills - more compact */
 	.row ul {
-		margin: 2pt 0;
+		margin: 1pt 0;
 		padding-left: 0;
 	}
 
 	.row ul li {
-		margin-bottom: 3pt;
-		line-height: 1.2;
+		margin-bottom: 2pt;
+		line-height: 1.1;
+		font-size: 8.5pt;
 	}
 
 	.row ul li span {
-		min-width: 140pt;
+		min-width: 130pt;
 	}
 
 	/* Experience - very compact */
 	.experience {
 		page-break-inside: avoid;
-		margin-bottom: 6pt;
-		padding-bottom: 6pt;
+		margin-bottom: 4pt;
+		padding-bottom: 4pt;
 		border-bottom: 0.5pt solid #ccc;
 	}
 
@@ -245,45 +247,51 @@ h5 {
 	}
 
 	.experience ul {
-		margin: 2pt 0;
+		margin: 1pt 0;
 		padding-left: 0;
 	}
 
 	.experience > ul > li {
-		margin-bottom: 2pt;
-		line-height: 1.2;
+		margin-bottom: 1pt;
+		line-height: 1.1;
+		font-size: 8.5pt;
 	}
 
 	.experience > ul > li > span {
-		min-width: 80pt;
-		font-size: 9pt;
+		min-width: 75pt;
+		font-size: 8.5pt;
 	}
 
 	/* Achievement bullet points - compact */
 	.experience ul ul {
-		margin: 2pt 0;
-		padding-left: 12pt;
+		margin: 1pt 0;
+		padding-left: 10pt;
 	}
 
 	.experience ul ul li {
-		margin-bottom: 1pt;
-		line-height: 1.2;
-		font-size: 9pt;
+		margin-bottom: 0.5pt;
+		line-height: 1.15;
+		font-size: 8pt;
 	}
 
 	/* Education & Other sections - compact */
 	.row div[ng-repeat="edu in edus"] ul,
 	.row div[ng-repeat="opensource in opensources"] ul,
 	.row div[ng-repeat="certificate in certificates"] ul {
-		margin: 2pt 0;
+		margin: 1pt 0;
 	}
 
 	.row div[ng-repeat="edu in edus"] ul li,
 	.row div[ng-repeat="opensource in opensources"] ul li,
 	.row div[ng-repeat="certificate in certificates"] ul li {
-		margin-bottom: 2pt;
-		line-height: 1.2;
-		font-size: 9pt;
+		margin-bottom: 1pt;
+		line-height: 1.1;
+		font-size: 8.5pt;
+	}
+
+	/* Hide certification section to save space */
+	.row div[ng-repeat="certificate in certificates"] {
+		display: none;
 	}
 
 	a {
@@ -297,14 +305,14 @@ h5 {
 
 	/* Contact info - inline */
 	.wrapper-location {
-		margin-bottom: 8pt;
+		margin-bottom: 6pt;
 	}
 
 	.wrapper-location li {
 		float: none;
 		display: inline;
-		margin-right: 10pt;
-		font-size: 9pt;
+		margin-right: 8pt;
+		font-size: 8.5pt;
 	}
 
 	.wrapper-location img {
