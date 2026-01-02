@@ -6,8 +6,8 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': 'May 2025 - present',
      'position': 'Lead Engineer',
      'achievementsList': [
-       'Architected and delivered Service Accounts feature enabling secure database access for ~1000 Kubernetes workloads using service account tokens, unlocking new customer automation capabilities',
-       'Designed Customer Managed Key (CMK) integration from operator perspective, enabling SOC2 and ISO compliance for major enterprise customers',
+       'Architected and delivered SOC2-compliant Service Accounts feature enabling secure database access for ~1000 Kubernetes workloads using service account tokens, unlocking new customer automation capabilities',
+       'Designed Customer Managed Key (CMK) integration from operator perspective, providing enterprise customers with encryption key control, audit trails, and data governance capabilities',
        'Optimized integration test suite by 25% (2h → 1h30m) through test rationalization, database reuse, and cross-team ownership transfer, accelerating CI/CD pipeline',
        'Leading database operator development for large-scale Kubernetes-based orchestration across multi-cloud environments',
        'Driving incident response and root-cause analysis for production database infrastructure'
