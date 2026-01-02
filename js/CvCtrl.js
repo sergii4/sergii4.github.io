@@ -6,9 +6,9 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': 'May 2025 - present',
      'position': 'Lead Engineer',
      'achievementsList': [
-       'Designed and implemented Service Accounts feature enabling secure Kubernetes workload access to cloud databases using service account tokens',
-       'Architected Customer Managed Key (CMK) integration from operator perspective for enhanced data encryption control',
-       'Optimized exponentially growing integration test suite, reducing execution time and improving CI/CD pipeline efficiency',
+       'Architected and delivered Service Accounts feature enabling secure database access for ~1000 Kubernetes workloads using service account tokens, unlocking new customer automation capabilities',
+       'Designed Customer Managed Key (CMK) integration from operator perspective, enabling SOC2 and ISO compliance for major enterprise customers',
+       'Optimized integration test suite by 25% (2h → 1h30m) through test rationalization, database reuse, and cross-team ownership transfer, accelerating CI/CD pipeline',
        'Leading database operator development for large-scale Kubernetes-based orchestration across multi-cloud environments',
        'Driving incident response and root-cause analysis for production database infrastructure'
      ],
@@ -20,7 +20,7 @@ cvApp.controller('CvCtrl', ['$scope', function($scope) {
      'date': 'November 2022 - April 2025',
      'position': 'Senior Software Engineer',
      'achievementsList': [
-       'Implemented out-of-disk protection feature that automatically transitions databases to read-only mode preventing data corruption before client upsizes',
+       'Implemented out-of-disk protection feature preventing 10+ data corruption incidents by automatically transitioning databases to read-only mode, eliminating manual emergency interventions',
        'Designed and built database lifecycle orchestration features for large-scale multi-cloud deployments',
        'Built and maintained scalable Kubernetes-based infrastructure using Kustomize and ArgoCD for GitOps workflows',
        'Improved system reliability and observability through automated monitoring, alerting, and distributed tracing'
